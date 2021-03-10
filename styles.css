@@ -1,0 +1,8 @@
+.head__text {
+    font-family: 'PT Serif', serif;
+}
+
+.lower__text,
+.button__text {
+    font-family: 'Roboto', sans-serif;
+}
