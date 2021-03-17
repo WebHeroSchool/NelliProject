@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-    width: 77%;
+    width: 80%;
     margin: auto;
     height: 100%;
 }
@@ -55,6 +55,7 @@ body {
 }
 
 .menu {
+    margin-right: 7px;
     display: flex;
     align-items: center;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
@@ -104,7 +105,6 @@ body {
 }
 
 .main {
-    padding-right: 63%;
     background: top right no-repeat url(img/mainImg.svg);
     padding: 0px 63% 100% 0;
 }
@@ -138,7 +138,7 @@ body {
 
 .main__button {
     font-family: Roboto, arial, helvetica, sans-serif;
-    padding: 19px 26px;
+    padding: 19px 27px;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
