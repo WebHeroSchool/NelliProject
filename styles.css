@@ -61,11 +61,26 @@ body {
 }
 
 .menu_item {
-    margin-right: 26px;
     color: #000;
     text-decoration: none;
     position: relative;
     transition: opacity .5s;
+}
+
+.item_margin1 {
+    margin-right: 25px;
+}
+
+.item_margin2 {
+    margin-right: 24px;
+}
+
+.item_margin3 {
+    margin-right: 27px;
+}
+
+.item_margin4 {
+    margin-right: 27px;
 }
 
 .menu_item:last-child {
@@ -105,7 +120,7 @@ body {
 
 .main {
     background: top right no-repeat url(img/mainImg.svg);
-    padding: 0px 63% 317px 0;
+    padding: 0px 63% 284px 0;
 }
 
 .main__title {
@@ -152,4 +167,34 @@ body {
 
 .main__button:hover {
     opacity: .5;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.footer_circle1 {
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+    background: #C8DBFB;
+    border-radius: 50%;
+}
+
+.footer_circle2 {
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+    background: #C8DBFB;
+    border-radius: 50%;
+}
+
+.footer_circle3 {
+    width: 8px;
+    height: 8px;
+    background: #C8DBFB;
+    border-radius: 50%;
 }
