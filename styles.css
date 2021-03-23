@@ -215,6 +215,18 @@
             padding-top: 33px;
             position: relative;
         }
+        .logo__circle_color_dark-blue {
+            background: #0056EC;
+            opacity: 0.7;
+            border-radius: 50%;
+        }
+        .logo__circle_color_blue {
+            left: 8px;
+            top: 56%;
+            background: #C8DBFB;
+            opacity: 0.7;
+            border-radius: 50%;
+        }
         .logo__text {
             display: none;
         }
@@ -258,7 +270,6 @@
         }
         .main__button {
             margin: 0 auto;
-            /* width: 60%; */
             padding: 14px 25px 14px 16px;
             font-family: Roboto, arial, helvetica, sans-serif;
             font-style: normal;
@@ -377,9 +388,6 @@
         .hamburger-menu {
             display: none;
         }
-    }
-    
-    @media(min-width: 768px) {
         .header {
             display: flex;
             justify-content: space-between;
@@ -411,6 +419,193 @@
             width: 28px;
             height: 28px;
             transform: translateY(-50%);
+        }
+        .logo__circle_color_dark-blue {
+            background: #0056EC;
+            opacity: 0.7;
+            border-radius: 50%;
+        }
+        .logo__circle_color_blue {
+            left: 8px;
+            top: 56%;
+            background: #C8DBFB;
+            opacity: 0.7;
+            border-radius: 50%;
+        }
+        .menu {
+            margin-right: 1px;
+            margin-top: 2px;
+            display: flex;
+            align-items: center;
+            font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+            font-style: normal;
+        }
+        .menu_item {
+            color: #000;
+            text-decoration: none;
+            position: relative;
+            transition: opacity .5s;
+        }
+        .item_margin1 {
+            margin-right: 25px;
+        }
+        .item_margin2 {
+            margin-right: 24px;
+        }
+        .item_margin3 {
+            margin-right: 27px;
+        }
+        .item_margin4 {
+            margin-right: 27px;
+        }
+        .menu_item:last-child {
+            margin-right: 0;
+        }
+        .menu_item_active::after {
+            position: absolute;
+            display: block;
+            content: '';
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: #0056EC;
+            opacity: 0;
+            transition: opacity .5s;
+        }
+        .menu_item:hover {
+            opacity: .5;
+        }
+        .menu_item:hover::after {
+            position: absolute;
+            display: block;
+            content: '';
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: #0056EC;
+        }
+        .menu_item:hover::after,
+        .menu_item_active::after {
+            opacity: 1;
+        }
+        .main {
+            background: top right no-repeat url(img/mainImg4.svg);
+            padding: 0px 57% 158px 0;
+        }
+        .main__title {
+            width: 100%;
+            padding-top: 20px;
+            margin: 0 0 39px 0;
+            font-family: "PT Serif", arial, helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 40px;
+            align-items: center;
+            color: #000000;
+        }
+        .main__title-text_highlight {
+            background: linear-gradient( 180deg, rgba(255, 255, 255, 1) 15%, #ECF3FF 15%);
+        }
+        .main__description {
+            width: 88%;
+            margin: 0 0 55px 0;
+            font-family: Roboto, arial, helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        .main__button {
+            font-family: Roboto, arial, helvetica, sans-serif;
+            margin-left: 0px;
+            padding: 14px 25px 13px 15px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFF;
+            background: #0056EC;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: opacity .5s;
+        }
+        .main__button:hover {
+            opacity: .5;
+        }
+        .footer {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            padding-bottom: 40px;
+        }
+        .footer_circle1 {
+            width: 8px;
+            height: 8px;
+            margin-right: 4px;
+            background: #C8DBFB;
+            border-radius: 50%;
+        }
+        .footer_circle2 {
+            width: 8px;
+            height: 8px;
+            margin-right: 4px;
+            background: #C8DBFB;
+            border-radius: 50%;
+        }
+        .footer_circle3 {
+            width: 8px;
+            height: 8px;
+            background: #C8DBFB;
+            border-radius: 50%;
+        }
+    }
+    
+    @media(min-width: 1024px) {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 80px;
+        }
+        .wrapper {
+            width: 91%;
+            margin: auto;
+            height: 100%;
+        }
+        .logo,
+        .menu {
+            display: inline-block;
+        }
+        .logo {
+            padding: 40px 0;
+            padding-left: 44px;
+            font-family: PT Serif, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 32px;
+            position: relative;
+        }
+        .logo__circle {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 28px;
+            height: 28px;
+            transform: translateY(-50%);
+        }
+        .logo__circle_color_dark-blue {
+            background: #0056EC;
+            opacity: 0.7;
+            border-radius: 50%;
+        }
+        .logo__circle_color_blue {
+            left: 8px;
+            top: 56%;
+            background: #C8DBFB;
+            opacity: 0.7;
+            border-radius: 50%;
         }
         .menu {
             margin-right: 1px;
@@ -574,6 +769,18 @@
             width: 28px;
             height: 28px;
             transform: translateY(-50%);
+        }
+        .logo__circle_color_dark-blue {
+            background: #0056EC;
+            opacity: 0.7;
+            border-radius: 50%;
+        }
+        .logo__circle_color_blue {
+            left: 8px;
+            top: 56%;
+            background: #C8DBFB;
+            opacity: 0.7;
+            border-radius: 50%;
         }
         .menu {
             margin-right: 4px;
