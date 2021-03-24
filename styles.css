@@ -199,15 +199,6 @@
         border-radius: 50%;
     }
     
-    @-webkit-keyframes aitf {
-        0% {
-            background-position: 0% 50%;
-        }
-        100% {
-            background-position: 100% 50%;
-        }
-    }
-    
     @media(max-width: 768px) {
         .menu {
             display: none;
@@ -346,11 +337,6 @@
             background-color: #FFFFFF;
             box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
             transition-duration: .25s;
-        }
-        .menu__item:hover {
-            -webkit-transform: scale(1.2);
-            -ms-transform: scale(1.2);
-            transform: scale(1.2);
         }
         .menu__item {
             display: block;
@@ -530,14 +516,6 @@
             font-weight: normal;
             font-size: 18px;
             line-height: 21px;
-            text-shadow: 0 0 80px rgba(255, 255, 255, .5);
-            background: url(img/animated-text.png) repeat-y;
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            -webkit-animation: aitf 80s linear infinite;
-            -webkit-transform: translate3d(0, 0, 0);
-            -webkit-backface-visibility: hidden;
         }
         .main__button {
             font-family: Roboto, arial, helvetica, sans-serif;
@@ -713,14 +691,6 @@
             font-weight: normal;
             font-size: 18px;
             line-height: 21px;
-            text-shadow: 0 0 80px rgba(255, 255, 255, .5);
-            background: url(img/animated-text.png) repeat-y;
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            -webkit-animation: aitf 80s linear infinite;
-            -webkit-transform: translate3d(0, 0, 0);
-            -webkit-backface-visibility: hidden;
         }
         .main__button {
             font-family: Roboto, arial, helvetica, sans-serif;
@@ -896,14 +866,6 @@
             font-weight: normal;
             font-size: 18px;
             line-height: 21px;
-            text-shadow: 0 0 80px rgba(255, 255, 255, .5);
-            background: url(img/animated-text.png) repeat-y;
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            -webkit-animation: aitf 80s linear infinite;
-            -webkit-transform: translate3d(0, 0, 0);
-            -webkit-backface-visibility: hidden;
         }
         .main__button {
             font-family: Roboto, arial, helvetica, sans-serif;
@@ -1076,14 +1038,6 @@
             font-weight: normal;
             font-size: 22px;
             line-height: 26px;
-            text-shadow: 0 0 80px rgba(255, 255, 255, .5);
-            background: url(img/animated-text.png) repeat-y;
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            -webkit-animation: aitf 80s linear infinite;
-            -webkit-transform: translate3d(0, 0, 0);
-            -webkit-backface-visibility: hidden;
         }
         .main__button {
             font-family: Roboto, arial, helvetica, sans-serif;
